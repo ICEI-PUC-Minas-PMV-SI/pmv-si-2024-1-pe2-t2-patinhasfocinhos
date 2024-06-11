@@ -1,3 +1,3 @@
 # Código do projeto
 
-Código do projeto, exportado da ferramenta Sydle One.
+Código do projeto desenvolvido, exportado da ferramenta Sydle One no formato XPDL.
