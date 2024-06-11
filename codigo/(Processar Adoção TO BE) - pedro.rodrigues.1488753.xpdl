@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Package xmlns="http://www.wfmc.org/2009/XPDL2.2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema" Id="373ad864-0175-48b1-ad6a-000000000001" Name="(Processar Adoção TO BE) - pedro.rodrigues.1488753">
+    <PackageHeader>
+        <XPDLVersion>2.2</XPDLVersion>
+        <Vendor>SYDLE ONE</Vendor>
+        <Created>2024-06-11T23:04:20.893189583Z</Created>
+        <ModificationDate>2024-06-11T23:04:20.893189583Z</ModificationDate>
+        <Description>(Processar Adoção TO BE) - pedro.rodrigues.1488753</Description>
+        <Documentation/>
+    </PackageHeader>
+    <RedefinableHeader>
+        <Version>1.0</Version>
+    </RedefinableHeader>
+    <ExternalPackages/>
+    <Pools>
+        <Pool BoundaryVisible="true" Id="a04ffbc1-0175-48b1-ad6a-000000000002" Name="(Processar Adoção TO BE) - pedro.rodrigues.1488753" Process="4badfd53-0175-48b1-ad6a-000000000001">
+            <NodeGraphicsInfos>
+                <NodeGraphicsInfo BorderColor="-11513776" FillColor="-1" Height="1013" ToolId="BizAgi_Process_Modeler" Width="1861">
+                    <Coordinates XCoordinate="21" YCoordinate="0"/>
+                </NodeGraphicsInfo>
+            </NodeGraphicsInfos>
+            <Lanes>
+                <Lane Id="8919f211-0175-48b1-ad6a-000000000003" Name="Equipe de Triagem Voluntária" ParentPool="a04ffbc1-0175-48b1-ad6a-000000000002">
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-11513776" FillColor="-1" Height="223" ToolId="BizAgi_Process_Modeler" Width="1861">
+                            <Coordinates XCoordinate="50" YCoordinate="0"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Lane>
+                <ExtendedAttributes/>
+                <Lane Id="20473e90-0175-48b1-ad6a-000000000004" Name="Adotante" ParentPool="a04ffbc1-0175-48b1-ad6a-000000000002">
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-11513776" FillColor="-1" Height="486" ToolId="BizAgi_Process_Modeler" Width="1861">
+                            <Coordinates XCoordinate="50" YCoordinate="223"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Lane>
+                <ExtendedAttributes/>
+                <Lane Id="4248ab0e-0175-48b1-ad6a-000000000005" Name="Equipe de Cuidadores Voluntários" ParentPool="a04ffbc1-0175-48b1-ad6a-000000000002">
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-11513776" FillColor="-1" Height="215" ToolId="BizAgi_Process_Modeler" Width="1861">
+                            <Coordinates XCoordinate="50" YCoordinate="709"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Lane>
+                <ExtendedAttributes/>
+            </Lanes>
+        </Pool>
+    </Pools>
+    <WorkflowProcesses>
+        <WorkflowProcess Id="4badfd53-0175-48b1-ad6a-000000000001" Name="(Processar Adoção TO BE) - pedro.rodrigues.1488753">
+            <ActivitySets/>
+            <Activities>
+                <Activity Id="1689e201-0175-48b1-ad6a-000000000006" Name="Garantir que os animais estejam limpos e alimentados">
+                    <Description/>
+                    <Implementation>
+                        <Task>
+                            <TaskUser/>
+                        </Task>
+                    </Implementation>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-16553830" FillColor="-1249281" Height="80" ToolId="BizAgi_Process_Modeler" Width="172">
+                            <Coordinates XCoordinate="357" YCoordinate="742"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="b348e1f9-0175-48b1-ad6a-000000000007" Name="Acessar os perfis dos animais disponíveis">
+                    <Description/>
+                    <Implementation>
+                        <Task>
+                            <TaskUser/>
+                        </Task>
+                    </Implementation>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-16553830" FillColor="-1249281" Height="59" ToolId="BizAgi_Process_Modeler" Width="134">
+                            <Coordinates XCoordinate="568" YCoordinate="412"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="535df000-0175-48b1-ad6a-000000000008" Name="Agendar visita">
+                    <Description/>
+                    <Implementation>
+                        <Task>
+                            <TaskUser/>
+                        </Task>
+                    </Implementation>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-16553830" FillColor="-1249281" Height="59" ToolId="BizAgi_Process_Modeler" Width="134">
+                            <Coordinates XCoordinate="1082" YCoordinate="412"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="b0027a19-0175-48b1-ad6a-000000000009" Name="Verificar informações da candidatura recebida">
+                    <Description/>
+                    <Implementation>
+                        <Task>
+                            <TaskUser/>
+                        </Task>
+                    </Implementation>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-16553830" FillColor="-1249281" Height="60" ToolId="BizAgi_Process_Modeler" Width="152">
+                            <Coordinates XCoordinate="213" YCoordinate="35"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="bf2f9031-0175-48b1-ad6a-000000000010" Name="Candidato Aprovado?">
+                    <Description/>
+                    <Route MarkerVisible="true"/>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-16553830" FillColor="-1249281" Height="0" ToolId="BizAgi_Process_Modeler" Width="0">
+                            <Coordinates XCoordinate="411" YCoordinate="47"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="55c55314-0175-48b1-ad6a-000000000011" Name="Adotante escolheu o/os animais?">
+                    <Description/>
+                    <Route MarkerVisible="true"/>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-16553830" FillColor="-1249281" Height="0" ToolId="BizAgi_Process_Modeler" Width="0">
+                            <Coordinates XCoordinate="906" YCoordinate="424"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="e990e089-0175-48b1-ad6a-000000000012" Name="Deseja finalizar adoção?">
+                    <Description/>
+                    <Route MarkerVisible="true"/>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-16553830" FillColor="-1249281" Height="0" ToolId="BizAgi_Process_Modeler" Width="0">
+                            <Coordinates XCoordinate="1429" YCoordinate="425"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="294b49dd-0175-48b1-ad6a-000000000013" Name="Candidatura recebida">
+                    <Description/>
+                    <Event>
+                        <StartEvent Trigger="None"/>
+                    </Event>
+                    <Documentation/>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="RuntimeProperties" Value="{}"/>
+                    </ExtendedAttributes>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-10311914" FillColor="-1638505" Height="30" ToolId="BizAgi_Process_Modeler" Width="30">
+                            <Coordinates XCoordinate="122" YCoordinate="45"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="9c62b4dc-0175-48b1-ad6a-000000000014" Name="Cadastro cancelado">
+                    <Description/>
+                    <Event>
+                        <EndEvent Result="None"/>
+                    </Event>
+                    <Documentation/>
+                    <ExtendedAttributes/>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-6750208" FillColor="-1135958" Height="30" ToolId="BizAgi_Process_Modeler" Width="30">
+                            <Coordinates XCoordinate="575" YCoordinate="45"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="f52dfe49-0175-48b1-ad6a-000000000015" Name="Animal Adotado">
+                    <Description/>
+                    <Event>
+                        <EndEvent Result="None"/>
+                    </Event>
+                    <Documentation/>
+                    <ExtendedAttributes/>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-6750208" FillColor="-1135958" Height="30" ToolId="BizAgi_Process_Modeler" Width="30">
+                            <Coordinates XCoordinate="1429" YCoordinate="75"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="51c69d19-0175-48b1-ad6a-000000000016" Name="Adoção Cancelada">
+                    <Description/>
+                    <Event>
+                        <EndEvent Result="None"/>
+                    </Event>
+                    <Documentation/>
+                    <ExtendedAttributes/>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo BorderColor="-6750208" FillColor="-1135958" Height="30" ToolId="BizAgi_Process_Modeler" Width="30">
+                            <Coordinates XCoordinate="1703" YCoordinate="75"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="bf2f9031-0175-48b1-ad6a-000000000010" Id="7addb668-0175-48b1-ad6a-000000000017" Name="Não" To="9c62b4dc-0175-48b1-ad6a-000000000014">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="411" YCoordinate="47"/>
+                            <Coordinates XCoordinate="575" YCoordinate="45"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="e990e089-0175-48b1-ad6a-000000000012" Id="21be97d8-0175-48b1-ad6a-000000000018" Name="Sim" To="f52dfe49-0175-48b1-ad6a-000000000015">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="1429" YCoordinate="425"/>
+                            <Coordinates XCoordinate="1429" YCoordinate="75"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="e990e089-0175-48b1-ad6a-000000000012" Id="35a65f9b-0175-48b1-ad6a-000000000019" Name="Não" To="51c69d19-0175-48b1-ad6a-000000000016">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="1429" YCoordinate="425"/>
+                            <Coordinates XCoordinate="1723" YCoordinate="443"/>
+                            <Coordinates XCoordinate="1703" YCoordinate="75"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="bf2f9031-0175-48b1-ad6a-000000000010" Id="c64e1214-0175-48b1-ad6a-000000000021" Name="Sim" To="1689e201-0175-48b1-ad6a-000000000006">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="411" YCoordinate="47"/>
+                            <Coordinates XCoordinate="357" YCoordinate="742"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="55c55314-0175-48b1-ad6a-000000000011" Id="33c193ae-0175-48b1-ad6a-000000000022" Name="Não" To="b348e1f9-0175-48b1-ad6a-000000000007">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="906" YCoordinate="424"/>
+                            <Coordinates XCoordinate="926" YCoordinate="384"/>
+                            <Coordinates XCoordinate="785" YCoordinate="384"/>
+                            <Coordinates XCoordinate="616" YCoordinate="384"/>
+                            <Coordinates XCoordinate="568" YCoordinate="412"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="55c55314-0175-48b1-ad6a-000000000011" Id="7e6d0d06-0175-48b1-ad6a-000000000026" Name="Sim" To="535df000-0175-48b1-ad6a-000000000008">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="906" YCoordinate="424"/>
+                            <Coordinates XCoordinate="1082" YCoordinate="412"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="535df000-0175-48b1-ad6a-000000000008" Id="7794ae83-0175-48b1-ad6a-000000000027" Name="" To="e990e089-0175-48b1-ad6a-000000000012">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="1082" YCoordinate="412"/>
+                            <Coordinates XCoordinate="1429" YCoordinate="425"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="294b49dd-0175-48b1-ad6a-000000000013" Id="ba4f2bea-0175-48b1-ad6a-000000000028" Name="" To="b0027a19-0175-48b1-ad6a-000000000009">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="122" YCoordinate="45"/>
+                            <Coordinates XCoordinate="213" YCoordinate="35"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="b0027a19-0175-48b1-ad6a-000000000009" Id="ccdda4bf-0175-48b1-ad6a-000000000029" Name="" To="bf2f9031-0175-48b1-ad6a-000000000010">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="213" YCoordinate="35"/>
+                            <Coordinates XCoordinate="411" YCoordinate="47"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="b348e1f9-0175-48b1-ad6a-000000000007" Id="71435d82-0175-48b1-ad6a-000000000030" Name="" To="55c55314-0175-48b1-ad6a-000000000011">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="568" YCoordinate="412"/>
+                            <Coordinates XCoordinate="906" YCoordinate="424"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition From="1689e201-0175-48b1-ad6a-000000000006" Id="deb46f56-0175-48b1-ad6a-000000000031" Name="" To="b348e1f9-0175-48b1-ad6a-000000000007">
+                    <Condition/>
+                    <Description/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo BorderColor="-16777216" ToolId="BizAgi_Process_Modeler">
+                            <Coordinates XCoordinate="357" YCoordinate="742"/>
+                            <Coordinates XCoordinate="636" YCoordinate="786"/>
+                            <Coordinates XCoordinate="568" YCoordinate="412"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+            </Transitions>
+        </WorkflowProcess>
+    </WorkflowProcesses>
+    <Artifacts/>
+    <Associations/>
+</Package>
