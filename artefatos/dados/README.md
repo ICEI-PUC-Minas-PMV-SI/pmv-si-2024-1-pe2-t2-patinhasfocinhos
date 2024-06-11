@@ -6,9 +6,13 @@ Os principais documentos a serem produzidos são:
 
 
 * `diagrama entidade-relacionamento (DER)`
-	* Apresentar o DER em imagem vetorial para evitar perda de qualidade com renderização em resolução específica.
+	* Identificar a relação entre os elementos dos processos.
 
 * `modelo relacional`
-	* Apresentar o modelo relacional em imagem vetorial para evitar perda de qualidade com renderização em resolução específica.
+	* Estruturação dos dados em tabelas para os processos desenvolvidos.
 
-Demais artefatos que julgar pertinentes.
+* `consultas SQL`
+	* Consultas SQL utilizadas para acessar os dados em cada processo.
+
+* `relatórios analíticos`
+	* Relatórios criados para auxiliar o controle dos processos e tomadas de decisões.
