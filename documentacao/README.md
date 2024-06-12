@@ -4,6 +4,6 @@ Liste os documentos disponibilizados nesta pasta com uma breve descrição do co
 
 * relatorio_final.pdf - Relatório do projeto.
 * apresentacao.mkv - Vídeo de apresentação do projeto.
-* slides.pptx - Slides da apresentação final do projeto.
+* Apresentação PPT - Patinhas e Focinhos.pdf - Slides da apresentação final do projeto.
 
 
